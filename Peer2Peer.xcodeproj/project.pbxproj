@@ -45,11 +45,30 @@
 		EAB5D2BF2AE9FC31008D42FC /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = EAB5D2BE2AE9FC31008D42FC /* FirebaseStorage */; };
 		EAB5D2C12AE9FC31008D42FC /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = EAB5D2C02AE9FC31008D42FC /* FirebaseStorageCombine-Community */; };
 		EAB5D2C52AE9FD69008D42FC /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB5D2C42AE9FD69008D42FC /* AuthViewModel.swift */; };
+		EAC7B5C32C8E3D2600499477 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC7B5C22C8E3D2600499477 /* NotificationManager.swift */; };
+		EAC7B5C52C8E3DBF00499477 /* ReminderSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC7B5C42C8E3DBF00499477 /* ReminderSettingsView.swift */; };
+		EACF872C2CA322EC00D070F9 /* ReminderNotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF872B2CA322E800D070F9 /* ReminderNotificationsView.swift */; };
+		EACF87302CA3555400D070F9 /* EyeRestNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF872F2CA3555400D070F9 /* EyeRestNotificationManager.swift */; };
+		EACF87322CA39C4A00D070F9 /* TipsAdviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF87312CA39C4A00D070F9 /* TipsAdviceView.swift */; };
+		EAD6FA4F2CB9BD18003B8C47 /* BlinkRateMonitoringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD6FA4E2CB9BD18003B8C47 /* BlinkRateMonitoringView.swift */; };
+		EAD6FA512CB9BD42003B8C47 /* DrowsinessMonitoringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD6FA502CB9BD42003B8C47 /* DrowsinessMonitoringView.swift */; };
+		EAD6FA532CB9BD4C003B8C47 /* BlinkRateCameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD6FA522CB9BD4C003B8C47 /* BlinkRateCameraManager.swift */; };
+		EAD6FA552CB9BD7E003B8C47 /* DrowsinessCameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD6FA542CB9BD7E003B8C47 /* DrowsinessCameraManager.swift */; };
+		EAD6FA572CB9BDC9003B8C47 /* DrowsinessChecker2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EAD6FA562CB9BDC9003B8C47 /* DrowsinessChecker2.mlmodel */; };
 		EAE37AA22C65547A00C6DA2D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EAE37AA12C65547A00C6DA2D /* GoogleService-Info.plist */; };
+		EAE37AA42C6E75C600C6DA2D /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE37AA32C6E75C600C6DA2D /* MainTabController.swift */; };
+		EAE37AA72C6E794100C6DA2D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE37AA62C6E794100C6DA2D /* HomeView.swift */; };
+		EAE37AAA2C6E7A0C00C6DA2D /* MonitoringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE37AA92C6E7A0C00C6DA2D /* MonitoringView.swift */; };
+		EAE37AAD2C6E7A2D00C6DA2D /* BreakRemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE37AAC2C6E7A2D00C6DA2D /* BreakRemindersView.swift */; };
+		EAE37AB52C6E7B0300C6DA2D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE37AB42C6E7B0300C6DA2D /* SettingsView.swift */; };
+		EAE37AB72C73EE9900C6DA2D /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE37AB62C73EE9900C6DA2D /* CameraPreview.swift */; };
+		EAE37AB92C73EF0800C6DA2D /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE37AB82C73EF0800C6DA2D /* CameraManager.swift */; };
+		EAE37AC02C76BDBA00C6DA2D /* EyeStateModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EAE37ABF2C76BDBA00C6DA2D /* EyeStateModel.mlmodel */; };
+		EAE37AC22C76D3AD00C6DA2D /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE37AC12C76D3AC00C6DA2D /* ResultsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EA07ED1F2AE1FE58003AD72B /* Peer2Peer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Peer2Peer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA07ED1F2AE1FE58003AD72B /* Opticare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Opticare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA07ED222AE1FE58003AD72B /* Peer2PeerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peer2PeerApp.swift; sourceTree = "<group>"; };
 		EA07ED242AE1FE58003AD72B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EA07ED262AE1FE59003AD72B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -61,7 +80,27 @@
 		EA5988912AE72A9F00B033A1 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
 		EA5988932AE75D7D00B033A1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		EAB5D2C42AE9FD69008D42FC /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		EAC7B5C22C8E3D2600499477 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		EAC7B5C42C8E3DBF00499477 /* ReminderSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderSettingsView.swift; sourceTree = "<group>"; };
+		EACF872B2CA322E800D070F9 /* ReminderNotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderNotificationsView.swift; sourceTree = "<group>"; };
+		EACF872F2CA3555400D070F9 /* EyeRestNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeRestNotificationManager.swift; sourceTree = "<group>"; };
+		EACF87312CA39C4A00D070F9 /* TipsAdviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsAdviceView.swift; sourceTree = "<group>"; };
+		EAD6FA4E2CB9BD18003B8C47 /* BlinkRateMonitoringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlinkRateMonitoringView.swift; sourceTree = "<group>"; };
+		EAD6FA502CB9BD42003B8C47 /* DrowsinessMonitoringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrowsinessMonitoringView.swift; sourceTree = "<group>"; };
+		EAD6FA522CB9BD4C003B8C47 /* BlinkRateCameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlinkRateCameraManager.swift; sourceTree = "<group>"; };
+		EAD6FA542CB9BD7E003B8C47 /* DrowsinessCameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrowsinessCameraManager.swift; sourceTree = "<group>"; };
+		EAD6FA562CB9BDC9003B8C47 /* DrowsinessChecker2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = DrowsinessChecker2.mlmodel; sourceTree = "<group>"; };
 		EAE37AA12C65547A00C6DA2D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EAE37AA32C6E75C600C6DA2D /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		EAE37AA62C6E794100C6DA2D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EAE37AA92C6E7A0C00C6DA2D /* MonitoringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitoringView.swift; sourceTree = "<group>"; };
+		EAE37AAC2C6E7A2D00C6DA2D /* BreakRemindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakRemindersView.swift; sourceTree = "<group>"; };
+		EAE37AB42C6E7B0300C6DA2D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		EAE37AB62C73EE9900C6DA2D /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		EAE37AB82C73EF0800C6DA2D /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		EAE37ABA2C75AAE600C6DA2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EAE37ABF2C76BDBA00C6DA2D /* EyeStateModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = EyeStateModel.mlmodel; sourceTree = "<group>"; };
+		EAE37AC12C76D3AC00C6DA2D /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +152,7 @@
 		EA07ED202AE1FE58003AD72B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EA07ED1F2AE1FE58003AD72B /* Peer2Peer.app */,
+				EA07ED1F2AE1FE58003AD72B /* Opticare.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,6 +160,8 @@
 		EA07ED212AE1FE58003AD72B /* Peer2Peer */ = {
 			isa = PBXGroup;
 			children = (
+				EAE37ABC2C76B70700C6DA2D /* CoreMLModels */,
+				EAE37ABA2C75AAE600C6DA2D /* Info.plist */,
 				EA07ED332AE1FE8B003AD72B /* App */,
 				EA07ED322AE1FE86003AD72B /* Components */,
 				EA07ED312AE1FE83003AD72B /* Core */,
@@ -151,6 +192,12 @@
 		EA07ED312AE1FE83003AD72B /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				EACF872A2CA322DA00D070F9 /* Notifications */,
+				EAE37AB32C6E7AF600C6DA2D /* Settings */,
+				EAE37AAE2C6E7A4400C6DA2D /* Tips */,
+				EAE37AAB2C6E7A1C00C6DA2D /* Reminders */,
+				EAE37AA82C6E79F000C6DA2D /* Monitoring */,
+				EAE37AA52C6E792900C6DA2D /* Home */,
 				EA07ED362AE1FEEF003AD72B /* Authentication */,
 				EA07ED352AE1FEE8003AD72B /* Profile */,
 				EA07ED342AE1FED8003AD72B /* Root */,
@@ -171,6 +218,7 @@
 			isa = PBXGroup;
 			children = (
 				EA07ED222AE1FE58003AD72B /* Peer2PeerApp.swift */,
+				EAC7B5C22C8E3D2600499477 /* NotificationManager.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -179,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				EA07ED242AE1FE58003AD72B /* ContentView.swift */,
+				EAE37AA32C6E75C600C6DA2D /* MainTabController.swift */,
 			);
 			path = Root;
 			sourceTree = "<group>";
@@ -215,6 +264,72 @@
 				EAB5D2C42AE9FD69008D42FC /* AuthViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EACF872A2CA322DA00D070F9 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				EACF872F2CA3555400D070F9 /* EyeRestNotificationManager.swift */,
+				EACF872B2CA322E800D070F9 /* ReminderNotificationsView.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		EAE37AA52C6E792900C6DA2D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EAE37AA62C6E794100C6DA2D /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EAE37AA82C6E79F000C6DA2D /* Monitoring */ = {
+			isa = PBXGroup;
+			children = (
+				EAD6FA542CB9BD7E003B8C47 /* DrowsinessCameraManager.swift */,
+				EAD6FA522CB9BD4C003B8C47 /* BlinkRateCameraManager.swift */,
+				EAD6FA502CB9BD42003B8C47 /* DrowsinessMonitoringView.swift */,
+				EAD6FA4E2CB9BD18003B8C47 /* BlinkRateMonitoringView.swift */,
+				EAE37AA92C6E7A0C00C6DA2D /* MonitoringView.swift */,
+				EAE37AB62C73EE9900C6DA2D /* CameraPreview.swift */,
+				EAE37AB82C73EF0800C6DA2D /* CameraManager.swift */,
+				EAE37AC12C76D3AC00C6DA2D /* ResultsView.swift */,
+			);
+			path = Monitoring;
+			sourceTree = "<group>";
+		};
+		EAE37AAB2C6E7A1C00C6DA2D /* Reminders */ = {
+			isa = PBXGroup;
+			children = (
+				EAE37AAC2C6E7A2D00C6DA2D /* BreakRemindersView.swift */,
+			);
+			path = Reminders;
+			sourceTree = "<group>";
+		};
+		EAE37AAE2C6E7A4400C6DA2D /* Tips */ = {
+			isa = PBXGroup;
+			children = (
+				EACF87312CA39C4A00D070F9 /* TipsAdviceView.swift */,
+			);
+			path = Tips;
+			sourceTree = "<group>";
+		};
+		EAE37AB32C6E7AF600C6DA2D /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				EAE37AB42C6E7B0300C6DA2D /* SettingsView.swift */,
+				EAC7B5C42C8E3DBF00499477 /* ReminderSettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		EAE37ABC2C76B70700C6DA2D /* CoreMLModels */ = {
+			isa = PBXGroup;
+			children = (
+				EAE37ABF2C76BDBA00C6DA2D /* EyeStateModel.mlmodel */,
+				EAD6FA562CB9BDC9003B8C47 /* DrowsinessChecker2.mlmodel */,
+			);
+			path = CoreMLModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,7 +378,7 @@
 				EAB5D2C02AE9FC31008D42FC /* FirebaseStorageCombine-Community */,
 			);
 			productName = Peer2Peer;
-			productReference = EA07ED1F2AE1FE58003AD72B /* Peer2Peer.app */;
+			productReference = EA07ED1F2AE1FE58003AD72B /* Opticare.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -320,15 +435,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAE37AB52C6E7B0300C6DA2D /* SettingsView.swift in Sources */,
+				EACF872C2CA322EC00D070F9 /* ReminderNotificationsView.swift in Sources */,
+				EACF87302CA3555400D070F9 /* EyeRestNotificationManager.swift in Sources */,
 				EA07ED382AE1FF30003AD72B /* LoginView.swift in Sources */,
+				EAC7B5C32C8E3D2600499477 /* NotificationManager.swift in Sources */,
 				EA34C7CA2AE60BDF00FCED81 /* InputView.swift in Sources */,
+				EAE37AA42C6E75C600C6DA2D /* MainTabController.swift in Sources */,
+				EAD6FA532CB9BD4C003B8C47 /* BlinkRateCameraManager.swift in Sources */,
 				EA07ED252AE1FE58003AD72B /* ContentView.swift in Sources */,
 				EA07ED232AE1FE58003AD72B /* Peer2PeerApp.swift in Sources */,
+				EAC7B5C52C8E3DBF00499477 /* ReminderSettingsView.swift in Sources */,
+				EAE37AA72C6E794100C6DA2D /* HomeView.swift in Sources */,
+				EAE37AC22C76D3AD00C6DA2D /* ResultsView.swift in Sources */,
 				EA5988942AE75D7D00B033A1 /* User.swift in Sources */,
+				EACF87322CA39C4A00D070F9 /* TipsAdviceView.swift in Sources */,
+				EAD6FA4F2CB9BD18003B8C47 /* BlinkRateMonitoringView.swift in Sources */,
+				EAD6FA552CB9BD7E003B8C47 /* DrowsinessCameraManager.swift in Sources */,
+				EAD6FA572CB9BDC9003B8C47 /* DrowsinessChecker2.mlmodel in Sources */,
+				EAE37AB72C73EE9900C6DA2D /* CameraPreview.swift in Sources */,
+				EAE37AAD2C6E7A2D00C6DA2D /* BreakRemindersView.swift in Sources */,
 				EA5988902AE7287300B033A1 /* ProfileView.swift in Sources */,
+				EAE37AAA2C6E7A0C00C6DA2D /* MonitoringView.swift in Sources */,
 				EA59888E2AE722E900B033A1 /* RegistrationView.swift in Sources */,
 				EA5988922AE72A9F00B033A1 /* SettingsRowView.swift in Sources */,
 				EAB5D2C52AE9FD69008D42FC /* AuthViewModel.swift in Sources */,
+				EAD6FA512CB9BD42003B8C47 /* DrowsinessMonitoringView.swift in Sources */,
+				EAE37AC02C76BDBA00C6DA2D /* EyeStateModel.mlmodel in Sources */,
+				EAE37AB92C73EF0800C6DA2D /* CameraManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,6 +599,9 @@
 				DEVELOPMENT_TEAM = 93T9AT2QKK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Peer2Peer/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera for eye monitoring.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -476,7 +613,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Saahir.Opti;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Opticare;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -494,6 +631,9 @@
 				DEVELOPMENT_TEAM = 93T9AT2QKK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Peer2Peer/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera for eye monitoring.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -505,7 +645,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Saahir.Opti;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Opticare;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -1,8 +1,4 @@
-//
-//  AuthViewModel.swift
-//  Peer2Peer
-//
-//
+
 
 import Foundation
 import Firebase

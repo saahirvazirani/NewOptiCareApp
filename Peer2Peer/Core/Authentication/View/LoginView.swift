@@ -1,7 +1,3 @@
-//
-//  LoginView.swift
-//  OptiCare//
-//
 
 import SwiftUI
 

@@ -1,8 +1,4 @@
-//
-//  SettingsRowView.swift
-//  Peer2Peer
-//
-//
+
 
 import SwiftUI
 

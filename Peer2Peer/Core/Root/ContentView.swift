@@ -1,19 +1,14 @@
-//
-//  ContentView.swift
-//  Peer2Peer
-//
-//
-
 import SwiftUI
 
 struct ContentView: View {
     @EnvironmentObject var viewModel: AuthViewModel
+    
     var body: some View {
-        Group{
-            if viewModel.userSession != nil {
-                ProfileView()
+        Group {
+            if viewModel.userSession != nil { // Compare the actual value, not the binding
+                MainTabBarController() // Show MainTabBarController when user is logged in
             } else {
-                LoginView()
+                LoginView() // Show LoginView when user is not logged in
             }
         }
     }
@@ -21,4 +16,6 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
+        .environmentObject(AuthViewModel())
 }
+//
